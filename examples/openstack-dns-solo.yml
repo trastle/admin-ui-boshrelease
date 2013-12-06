@@ -3,7 +3,7 @@ name: admin-ui
 director_uuid: 1e62421b-717e-438c-b5e8-b1b64a9bce23 # CHANGE: Director UUID
 release:
   name: admin-ui
-  version: latest
+  version: 1
 compilation:
   workers: 3
   network: default
@@ -34,6 +34,7 @@ resource_pools:
 jobs:
 - name: admin_ui
   template: admin_ui
+  release: admin-ui
   instances: 1
   resource_pool: common
   networks:
