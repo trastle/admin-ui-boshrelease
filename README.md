@@ -9,7 +9,7 @@ To use this bosh release, first upload it to your bosh:
 ```
 bosh target BOSH_URL
 bosh login
-git clone git@github.com:cloudfoundry-community/admin-ui-boshrelease.git
+git clone https://github.com/cloudfoundry-community/admin-ui-boshrelease.git
 cd admin-ui-boshrelease
 bosh upload release releases/admin-ui-1.yml
 ```
